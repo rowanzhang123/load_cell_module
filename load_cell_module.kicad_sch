@@ -2,8 +2,15 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 82a657f2-ac6b-4be6-aa5d-c178053bdaa7)
+	(uuid "82a657f2-ac6b-4be6-aa5d-c178053bdaa7")
 	(paper "A4")
+	(title_block
+		(title "Load Cell Module")
+		(date "2026-07-22")
+		(comment 1 "Copyright (C) 2026 Rowan Zhang")
+		(comment 2 "License URL: https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 3 "License: CC BY-SA 4.0")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
