@@ -970,17 +970,6 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 140 80)
-		(end 180 130)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "ac376791-2a86-4b4d-b619-18a6ec9db4c4")
-	)
 	(gr_circle
 		(center 144 84)
 		(end 144 87)
@@ -1002,6 +991,16 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "c0f6cd01-ec90-4b06-9b60-2d7ef03000f0")
+	)
+	(gr_line
+		(start 155 133)
+		(end 165 133)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a517034-645d-4494-823f-1d14c31f352d")
 	)
 	(gr_circle
 		(center 176 84)
@@ -1025,16 +1024,204 @@
 		(layer "F.SilkS")
 		(uuid "b1185653-39c7-490e-9619-8f1ac3bc31d7")
 	)
+	(gr_line
+		(start 155 133)
+		(end 165 133)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "e5765197-629c-4cc8-91b8-0929b406eb02")
+	)
+	(gr_rect
+		(start 117 136)
+		(end 203 150)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f7c02b08-ff22-456f-9de7-c2362c9ee123")
+	)
 	(gr_rect
 		(start 140 80)
+		(end 180 130)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ac376791-2a86-4b4d-b619-18a6ec9db4c4")
+	)
+	(gr_arc
+		(start 152 130)
+		(mid 155 133)
+		(end 152 136)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ec012b67-674c-48a0-9453-ce0b0f777a4a")
+	)
+	(gr_rect
+		(start 155 130)
+		(end 165 136)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "26b74373-ba74-42f2-89ea-231458810c97")
+	)
+	(gr_arc
+		(start 168 136)
+		(mid 165 133)
+		(end 168 130)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "155706c4-1227-439a-b64c-eec621d49c04")
+	)
+	(gr_line
+		(start 117 136)
+		(end 152 136)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d9d48c3d-28c5-4572-aefa-a9170be0f010")
+	)
+	(gr_line
+		(start 117 150)
+		(end 117 136)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5629e5c-be91-4059-8c61-4e8dcee3b962")
+	)
+	(gr_line
+		(start 140 80)
+		(end 180 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d7e68d0-4950-4f10-9b01-a2d55364a03b")
+	)
+	(gr_line
+		(start 140 130)
+		(end 140 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af4e6fb0-0ab3-42f6-b786-e62490c032b1")
+	)
+	(gr_line
+		(start 152 130)
+		(end 140 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "de77724a-2230-439b-a6d9-1a9097d5a0e4")
+	)
+	(gr_arc
+		(start 152 130)
+		(mid 155 133)
+		(end 152 136)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b60517a-9537-40aa-8bcd-74eca6e0dbc6")
+	)
+	(gr_arc
+		(start 168 136)
+		(mid 165 133)
+		(end 168 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9354f14d-6a01-40de-b8b9-22543f95b061")
+	)
+	(gr_line
+		(start 168 136)
+		(end 203 136)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e773a75e-9906-4156-8c3e-2b06febf62fa")
+	)
+	(gr_line
+		(start 180 80)
 		(end 180 130)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "af9b3ed8-432b-4e45-a095-f4d7cdc220da")
+		(uuid "f3710595-f11a-429f-b4a2-351f4e27d84d")
+	)
+	(gr_line
+		(start 180 130)
+		(end 168 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d58623a5-ffae-4838-b15b-55dd8cee288b")
+	)
+	(gr_line
+		(start 203 136)
+		(end 203 150)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c299380-6aa4-44a5-b854-48dca6824bb6")
+	)
+	(gr_line
+		(start 203 150)
+		(end 117 150)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b402b6fb-4621-4004-8e4c-8503941a2387")
+	)
+	(gr_text "Copyright (C) 2026 Rowan Zhang"
+		(at 160 82 0)
+		(layer "B.SilkS")
+		(uuid "88b01cc8-4c27-452a-ba40-44bda13a9fc1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
 	)
 	(embedded_fonts no)
 )
