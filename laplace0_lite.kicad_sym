@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "integral0_lite"
+	(symbol "laplace0_lite"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49,29 +49,24 @@
 				(hide yes)
 			)
 		)
-		(symbol "integral0_lite_0_0"
-			(pin passive line
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "PC0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		(symbol "laplace0_lite_0_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -36.83)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 -3.81 0)
+		)
+		(symbol "laplace0_lite_1_1"
+			(pin input line
+				(at -11.43 -2.54 0)
 				(length 2.54)
-				(name "PC2"
+				(name "PA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -86,10 +81,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -6.35 0)
+			(pin input line
+				(at -11.43 -5.08 0)
 				(length 2.54)
-				(name "PA13"
+				(name "PA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -104,10 +99,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -8.89 0)
+			(pin input line
+				(at -11.43 -7.62 0)
 				(length 2.54)
-				(name "PA14"
+				(name "PB14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122,10 +117,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -11.43 0)
+			(pin input line
+				(at -11.43 -10.16 0)
 				(length 2.54)
-				(name "PA0"
+				(name "PB15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -140,10 +135,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -13.97 0)
+			(pin input line
+				(at -11.43 -12.7 0)
 				(length 2.54)
-				(name "PA2"
+				(name "PA8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -158,10 +153,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -16.51 0)
+			(pin input line
+				(at -11.43 -15.24 0)
 				(length 2.54)
-				(name "PA6"
+				(name "PA9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -176,10 +171,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -19.05 0)
+			(pin input line
+				(at -11.43 -17.78 0)
 				(length 2.54)
-				(name "PB1"
+				(name "PA10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -194,10 +189,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -21.59 0)
+			(pin input line
+				(at -11.43 -20.32 0)
 				(length 2.54)
-				(name "PB9"
+				(name "PA13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -212,10 +207,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -24.13 0)
+			(pin input line
+				(at -11.43 -22.86 0)
 				(length 2.54)
-				(name "PB3"
+				(name "PA14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -230,10 +225,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -26.67 0)
+			(pin input line
+				(at -11.43 -25.4 0)
 				(length 2.54)
-				(name "PB4"
+				(name "PA15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -248,10 +243,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -29.21 0)
+			(pin input line
+				(at -11.43 -27.94 0)
 				(length 2.54)
-				(name "GND"
+				(name "PB3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -266,10 +261,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -8.89 -39.37 90)
+			(pin input line
+				(at -11.43 -30.48 0)
 				(length 2.54)
-				(name "PC1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -284,10 +279,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -39.37 90)
+			(pin input line
+				(at -7.62 -39.37 90)
 				(length 2.54)
-				(name "PA15"
+				(name "PB5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -302,10 +297,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 -39.37 90)
+			(pin input line
+				(at -5.08 -39.37 90)
 				(length 2.54)
-				(name "PA5"
+				(name "PB6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -320,10 +315,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -1.27 -39.37 90)
+			(pin input line
+				(at -2.54 -39.37 90)
 				(length 2.54)
-				(name "PA8"
+				(name "PB7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -338,10 +333,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 1.27 -39.37 90)
+			(pin input line
+				(at 0 -39.37 90)
 				(length 2.54)
-				(name "PA9"
+				(name "PB8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -356,10 +351,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 -39.37 90)
+			(pin input line
+				(at 2.54 -39.37 90)
 				(length 2.54)
-				(name "GLS1"
+				(name "PB2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -374,10 +369,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 6.35 -39.37 90)
+			(pin input line
+				(at 5.08 -39.37 90)
 				(length 2.54)
-				(name "GLS2"
+				(name "PB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -392,10 +387,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 8.89 -39.37 90)
+			(pin input line
+				(at 7.62 -39.37 90)
 				(length 2.54)
-				(name "GLS3"
+				(name "PB0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -410,10 +405,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -1.27 180)
+			(pin input line
+				(at 11.43 -2.54 180)
 				(length 2.54)
-				(name "+24"
+				(name "+5v"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -428,10 +423,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -3.81 180)
+			(pin input line
+				(at 11.43 -5.08 180)
 				(length 2.54)
-				(name "+5"
+				(name "+3v3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -446,10 +441,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -6.35 180)
+			(pin input line
+				(at 11.43 -7.62 180)
 				(length 2.54)
-				(name "+3v3"
+				(name "PB13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -464,10 +459,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -8.89 180)
+			(pin input line
+				(at 11.43 -10.16 180)
 				(length 2.54)
-				(name "GHS1"
+				(name "PB12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -482,10 +477,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -11.43 180)
+			(pin input line
+				(at 11.43 -12.7 180)
 				(length 2.54)
-				(name "OUT1"
+				(name "PB10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -500,10 +495,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -13.97 180)
+			(pin input line
+				(at 11.43 -15.24 180)
 				(length 2.54)
-				(name "BOOT1"
+				(name "PA7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -518,10 +513,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -16.51 180)
+			(pin input line
+				(at 11.43 -17.78 180)
 				(length 2.54)
-				(name "GHS2"
+				(name "PA6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -536,10 +531,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -19.05 180)
+			(pin input line
+				(at 11.43 -20.32 180)
 				(length 2.54)
-				(name "OUT2"
+				(name "PA5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -554,10 +549,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -21.59 180)
+			(pin input line
+				(at 11.43 -22.86 180)
 				(length 2.54)
-				(name "BOOT2"
+				(name "PA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -572,10 +567,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -24.13 180)
+			(pin input line
+				(at 11.43 -25.4 180)
 				(length 2.54)
-				(name "GHS3"
+				(name "PA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -590,10 +585,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -26.67 180)
+			(pin input line
+				(at 11.43 -27.94 180)
 				(length 2.54)
-				(name "OUT3"
+				(name "PA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -608,10 +603,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -29.21 180)
+			(pin input line
+				(at 11.43 -30.48 180)
 				(length 2.54)
-				(name "BOOT3"
+				(name "PB4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,20 +619,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "integral0_lite_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -36.83)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 255 255 194 1)
 				)
 			)
 		)
