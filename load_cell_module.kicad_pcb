@@ -3039,6 +3039,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "v1.0"
+		(at 86.36 101.6 270)
+		(layer "F.SilkS")
+		(uuid "420866e0-3553-4b99-8e6d-4a7b0e8116db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "+5v\n\nGND\n\nWHITE\n\nGREEN"
 		(at 93.98 130.175 270)
 		(layer "F.SilkS")
