@@ -96,7 +96,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1730,7 +1729,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1Meg"
 			(at 6.35 0 90)
 			(layer "B.SilkS")
 			(uuid "6c4b04ce-ace3-4a99-98c3-1a6bd0267eb2")
@@ -1944,7 +1943,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1Meg"
 			(at 6.35 0 90)
 			(layer "B.SilkS")
 			(uuid "5587de6d-2517-4a17-b1f2-2547c1bca0e6")
@@ -2472,7 +2471,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 90)
 			(layer "B.SilkS")
 			(uuid "af182e13-af28-4843-8564-23eb1594740d")
@@ -2686,7 +2685,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 90)
 			(layer "B.SilkS")
 			(uuid "58f8bfd2-5701-47f6-8c1d-04bc0d915df0")
